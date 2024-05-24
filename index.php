@@ -14,7 +14,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 			$_SESSION['cart'][$row_p['id']]=array("quantity" => 1, "price" => $row_p['productPrice']);
 		
 		}else{
-			$message="Product ID is invalid";
+			$message="Producto ID es Invalido";
 		}
 	}
 		echo "<script>alert('Product has been added to the cart')</script>";
@@ -34,7 +34,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>COFFE SHOP UMG</title>
+	    <title>Cafeteria UMG</title>
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
