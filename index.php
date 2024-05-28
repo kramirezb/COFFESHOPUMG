@@ -35,8 +35,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	    <meta name="robots" content="all">
 
 	    <title>Coffe shop UMG</title>
-	    <title>COFFE SHOP UMG TEST</title>
-	    <title>COFFE SHOP UMG</title>
+	    
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
