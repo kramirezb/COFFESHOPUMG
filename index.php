@@ -132,6 +132,6 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	    <script src="assets/js/bootstrap-select.min.js"></script>
 	    <script src="assets/js/wow.min.js"></script>
 		<script src="assets/js/scripts.js"></script>
-		<!-- JS Scripts END -->
+		<!-- JS Scripts END a--> 
 	</body>
 </html>
