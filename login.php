@@ -2,7 +2,7 @@
 session_start();
 error_reporting(0);
 include('includes/config.php');
-// Code user Registration
+// Code user Registro
 if(isset($_POST['submit']))
 {
 $name=$_POST['fullname'];
