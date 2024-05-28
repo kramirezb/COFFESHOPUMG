@@ -14,7 +14,7 @@ else{
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin|  Users log</title>
+	<title>Admin|  REGISTRO DE USUARIO</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -33,7 +33,7 @@ else{
 
 	<div class="module">
 							<div class="module-head">
-								<h3>Manage Users</h3>
+								<h3>ADMINISTRADOR DE USUARIO</h3>
 							</div>
 							<div class="module-body table">
 	
@@ -42,7 +42,7 @@ else{
 									<thead>
 										<tr>
 											<th>#</th>
-											<th> User Email</th>
+											<th> EMAIL DE USUARIO</th>
 											<th>User IP </th>
 											<th>Login Time</th>
 											<th>Logout Time </th>

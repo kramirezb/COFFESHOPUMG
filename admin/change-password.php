@@ -31,7 +31,7 @@ $_SESSION['msg']="Old Password not match !!";
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin| Change Password</title>
+	<title>Admin| INTRODUZCA CONTRASEÑA</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -80,7 +80,7 @@ return true;
 
 						<div class="module">
 							<div class="module-head">
-								<h3>Admin Change Password</h3>
+								<h3>Admin CAMBIO DE CONTRASEÑA</h3>
 							</div>
 							<div class="module-body">
 
@@ -96,7 +96,7 @@ return true;
 			<form class="form-horizontal row-fluid" name="chngpwd" method="post" onSubmit="return valid();">
 									
 <div class="control-group">
-<label class="control-label" for="basicinput">Current Password</label>
+<label class="control-label" for="basicinput">CONTRASEÑA ACTUAL</label>
 <div class="controls">
 <input type="password" placeholder="Enter your current Password"  name="password" class="span8 tip" required>
 </div>
@@ -104,14 +104,14 @@ return true;
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">New Password</label>
+<label class="control-label" for="basicinput">NUEVA CONTRASEÑA</label>
 <div class="controls">
 <input type="password" placeholder="Enter your new current Password"  name="newpassword" class="span8 tip" required>
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Current Password</label>
+<label class="control-label" for="basicinput">CONTRASEÑA ACTUAL</label>
 <div class="controls">
 <input type="password" placeholder="Enter your new Password again"  name="confirmpassword" class="span8 tip" required>
 </div>
@@ -124,7 +124,7 @@ return true;
 
 										<div class="control-group">
 											<div class="controls">
-												<button type="submit" name="submit" class="btn">Submit</button>
+												<button type="submit" name="submit" class="btn">ENTREGA</button>
 											</div>
 										</div>
 									</form>
