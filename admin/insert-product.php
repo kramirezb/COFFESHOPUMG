@@ -46,7 +46,7 @@ $_SESSION['msg']="Product Inserted Successfully !!";
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin| INSERTAR PRODUCTO</title>
+	<title>Admin| Insert Product</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -86,7 +86,7 @@ $("#suggesstion-box").hide();
 
 						<div class="module">
 							<div class="module-head">
-								<h3>INSERTAR PRODUCTO</h3>
+								<h3>Insert Product</h3>
 							</div>
 							<div class="module-body">
 
@@ -112,10 +112,10 @@ $("#suggesstion-box").hide();
 			<form class="form-horizontal row-fluid" name="insertproduct" method="post" enctype="multipart/form-data">
 
 <div class="control-group">
-<label class="control-label" for="basicinput">CATEGORIA</label>
+<label class="control-label" for="basicinput">Category</label>
 <div class="controls">
 <select name="category" class="span8 tip" onChange="getSubcat(this.value);"  required>
-<option value="">SELECCIONE CATEGORIA</option> 
+<option value="">Select Category</option> 
 <?php $query=mysqli_query($con,"select * from category");
 while($row=mysqli_fetch_array($query))
 {?>
@@ -128,7 +128,7 @@ while($row=mysqli_fetch_array($query))
 
 									
 <div class="control-group">
-<label class="control-label" for="basicinput">SUBCATEGORIA</label>
+<label class="control-label" for="basicinput">Sub Category</label>
 <div class="controls">
 <select   name="subcategory"  id="subcategory" class="span8 tip" required>
 </select>
@@ -137,34 +137,34 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">NOMBRE DE PRODUCTO</label>
+<label class="control-label" for="basicinput">Product Name</label>
 <div class="controls">
 <input type="text"    name="productName"  placeholder="Enter Product Name" class="span8 tip" required>
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">COMPANIA DE PRODUCTO</label>
+<label class="control-label" for="basicinput">Product Company</label>
 <div class="controls">
 <input type="text"    name="productCompany"  placeholder="Enter Product Comapny Name" class="span8 tip" required>
 </div>
 </div>
 <div class="control-group">
-<label class="control-label" for="basicinput">PRECIO DE PRODUCTO ANTES DEL DESCUEINTO</label>
+<label class="control-label" for="basicinput">Product Price Before Discount</label>
 <div class="controls">
 <input type="text"    name="productpricebd"  placeholder="Enter Product Price" class="span8 tip" required>
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">PRECIO DEL PRODUCTO DESPUES DEL DESCUENTO(PRECIO DE VENTA)</label>
+<label class="control-label" for="basicinput">Product Price After Discount(Selling Price)</label>
 <div class="controls">
 <input type="text"    name="productprice"  placeholder="Enter Product Price" class="span8 tip" required>
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">DESCRIPCION DE PRODUCTO</label>
+<label class="control-label" for="basicinput">Product Description</label>
 <div class="controls">
 <textarea  name="productDescription"  placeholder="Enter Product Description" rows="6" class="span8 tip">
 </textarea>  
@@ -172,19 +172,19 @@ while($row=mysqli_fetch_array($query))
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">CARGO DE ENVIO DEL PRODUCTO</label>
+<label class="control-label" for="basicinput">Product Shipping Charge</label>
 <div class="controls">
 <input type="text"    name="productShippingcharge"  placeholder="Enter Product Shipping Charge" class="span8 tip" required>
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">PRODUCTO DISPONIBLE</label>
+<label class="control-label" for="basicinput">Product Availability</label>
 <div class="controls">
 <select   name="productAvailability"  id="productAvailability" class="span8 tip" required>
 <option value="">Select</option>
-<option value="In Stock">EN STOCK</option>
-<option value="Out of Stock">AGOTADO</option>
+<option value="In Stock">In Stock</option>
+<option value="Out of Stock">Out of Stock</option>
 </select>
 </div>
 </div>
@@ -192,7 +192,7 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">IMAGEN PRODUCTO </label>
+<label class="control-label" for="basicinput">Product Image1</label>
 <div class="controls">
 <input type="file" name="productimage1" id="productimage1" value="" class="span8 tip" required>
 </div>
@@ -200,7 +200,7 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">IMAGEN2 PRODUCTO </label>
+<label class="control-label" for="basicinput">Product Image2</label>
 <div class="controls">
 <input type="file" name="productimage2"  class="span8 tip" required>
 </div>
@@ -209,7 +209,7 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">IMAGEN3 PRODUCTO</label>
+<label class="control-label" for="basicinput">Product Image3</label>
 <div class="controls">
 <input type="file" name="productimage3"  class="span8 tip">
 </div>

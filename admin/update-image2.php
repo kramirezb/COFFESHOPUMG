@@ -30,7 +30,7 @@ $_SESSION['msg']="Product Image Updated Successfully !!";
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin| CARGA DE IMAGEN DE PRODUCTO 2</title>
+	<title>Admin| Update Product Image</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -70,7 +70,7 @@ $("#suggesstion-box").hide();
 
 						<div class="module">
 							<div class="module-head">
-								<h3>CARGA IMAGEN DE PRODUCTO 2</h3>
+								<h3>Update Product Image 2</h3>
 							</div>
 							<div class="module-body">
 
@@ -101,7 +101,7 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">NOMBRE DE PRODUCTO</label>
+<label class="control-label" for="basicinput">Product Name</label>
 <div class="controls">
 <input type="text"    name="productName"  readonly value="<?php echo htmlentities($row['productName']);?>" class="span8 tip" required>
 </div>
@@ -109,7 +109,7 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">IMAGEN ACTUAL DE PRODUCTO 2</label>
+<label class="control-label" for="basicinput">Current Product Image1</label>
 <div class="controls">
 <img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage2']);?>" width="200" height="100"> 
 </div>
@@ -118,7 +118,7 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">NUEVA IMAGEN DE PRODUCTO 2</label>
+<label class="control-label" for="basicinput">New Product Image2</label>
 <div class="controls">
 <input type="file" name="productimage2" id="productimage2" value="" class="span8 tip" required>
 </div>

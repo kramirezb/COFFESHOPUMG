@@ -18,7 +18,7 @@ $currentTime = date( 'd-m-Y h:i:s A', time () );
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin| ORDENES PENDIENTES</title>
+	<title>Admin| Pending Orders</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -67,14 +67,14 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 									<thead>
 										<tr>
 											<th>#</th>
-											<th> NOMBRE</th>
-											<th width="50">Email /NO. CONTACTO</th>
-											<th>DIRECCION</th>
-											<th>PRODUCTO </th>
-											<th>UNIDADES </th>
-											<th>MONTO</th>
-											<th>FECHA DE ORDEN</th>
-											<th>AcCION</th>
+											<th> Name</th>
+											<th width="50">Email /Contact no</th>
+											<th>Shipping Address</th>
+											<th>Product </th>
+											<th>Qty </th>
+											<th>Amount </th>
+											<th>Order Date</th>
+											<th>Action</th>
 											
 										
 										</tr>
